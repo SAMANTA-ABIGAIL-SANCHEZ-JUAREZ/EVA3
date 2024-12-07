@@ -1,0 +1,58 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.mavenproject5;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author sanch
+ */
+public class Mavenproject5 {
+
+    public static void main(String[] args) {
+        
+   //capturar calificaion
+    Scanner captu = new Scanner(System.in);
+    //introduce tu calificacion
+     for (int i = 0; i < 10; i++){
+      int califa;
+      int estudiantes;
+      estudiantes = 5;
+        int estudiante1 = 10;
+        int estudiante2 = 8;
+        int estudiante3 = 9;
+        int estudiante4 = 7;
+        int estudiante5 = 6;
+     System.out.println("introduce califa: ");
+    califa = 10; //Excelente
+    
+      System.out.println(10);
+    califa = 8; //pasas
+     System.out.println(8);
+    califa = 9; //bueno
+     System.out.println(9);
+    califa = 7; //pansas
+     System.out.println(7);
+    califa = 6; //no pasas
+     System.out.println(6);
+    System.out.println("si la calificaion es 10 es excelente: " );
+    System.out.println(estudiante1);
+    System.out.println("si la calificaion es 8 pasas: ");
+     System.out.println(estudiante2);
+    System.out.println("si la calificaion es 9 vas bien: ");
+    System.out.println(estudiante3);
+    System.out.println("si la calificaion es 7 pansas: ");
+     System.out.println(estudiante4);
+    System.out.println("si la calificaion es 6 no pasas: ");
+    System.out.println(estudiante5);
+    
+
+    }  
+     int califa;
+   int estudiantes;
+   
+}
+}
